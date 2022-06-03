@@ -1,22 +1,13 @@
-import React, {useState} from "react";
+import React from "react";
 
 // Add Numbers Component Style file(CSS)
 import "./Numbers.css";
 
 const Numbers = () => {
-  const [clickedNumber, setClickedNumber] = useState();
-
-  const saveNumber = (event) => {
-    console.log(event.target);
-    // setClickedNumber();
-  };
-
   return (
     <div className="leftPanel">
       <div className="numbers">
-        <div className="number" onClick={saveNumber}>
-          7
-        </div>
+        <div className="number">7</div>
         <div className="number">8</div>
         <div className="number">9</div>
       </div>

@@ -2,12 +2,10 @@
   display: inline-block;
 }
 
-.buttons {
-}
 .numbers div {
   display: inline-block;
   border: 1px solid #ddd;
-  border-radius: 1px;
+  /* border-radius: 1px; */
   width: 80px;
   text-align: center;
   padding: 10px;

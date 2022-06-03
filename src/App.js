@@ -1,15 +1,16 @@
+import React from "react";
 import "./App.css";
 
-import Results from "./components/Results";
-import Keypads from "./components/Keypads";
+import DisplayedComponent from "./components/DisplayedComponent";
+import KeypadsComponent from "./components/KeypadsComponent";
 
 function App() {
   return (
     <div className="App">
       <div className="wrapper">
         <div className="calculator">
-          <Results />
-          <Keypads />
+          <DisplayedComponent />
+          <KeypadsComponent />
         </div>
       </div>
     </div>

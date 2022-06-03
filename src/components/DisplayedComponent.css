@@ -1,0 +1,56 @@
+.inputWrapper {
+  /* border: 1px solid #ddd; */
+  /* border-radius: 1px; */
+  height: 150px;
+  padding-right: 15px;
+  padding-top: 10px;
+  text-align: right;
+  margin-right: 6px;
+  font-size: 2.5rem;
+  overflow-x: auto;
+  transition: all 0.2s ease-in-out;
+}
+
+.input {
+  margin: 0 auto;
+  border: 1px solid #ddd;
+  /* border-radius: 1px; */
+  width: 410px;
+  height: 80px;
+  padding-right: 10px;
+  padding-top: 10px;
+  text-align: right;
+  line-height: 70px;
+  margin-right: 6px;
+  font-size: 2.5rem;
+  overflow-x: auto;
+  transition: all 0.2s ease-in-out;
+}
+
+.input:hover {
+  border: 1px solid #bbb;
+  -webkit-box-shadow: inset 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: inset 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+}
+
+.history {
+  margin: 0 auto;
+  /* border: 1px solid #ddd; */
+  /* border-radius: 1px; */
+  width: 410px;
+  height: 40px;
+  padding-right: 15px;
+  padding-top: 10px;
+  text-align: right;
+  line-height: 40px;
+  margin-right: 6px;
+  font-size: 1.5rem;
+  overflow-x: auto;
+  transition: all 0.2s ease-in-out;
+}
+
+.history:hover {
+  border: 1px solid #bbb;
+  -webkit-box-shadow: inset 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: inset 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+}

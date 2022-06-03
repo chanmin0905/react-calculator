@@ -4,7 +4,15 @@ import React from "react";
 import "./Equal.css";
 
 const Equal = () => {
-  return <div className="equal">=</div>;
+  const clickedEqual = (event) => {
+    console.log(event.target.value);
+  };
+
+  return (
+    <div className="equal" onClick={clickedEqual}>
+      =
+    </div>
+  );
 };
 
 export default Equal;
